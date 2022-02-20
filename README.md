@@ -33,7 +33,7 @@ Transformer 구조를 이용한 기계번역으로 북한어를 남한어로 자
 ![bukPagoFile](https://user-images.githubusercontent.com/47496422/124358663-41902600-dc5c-11eb-9a9b-8b65648de2af.png)
 ![bukPagoTrain](https://user-images.githubusercontent.com/47496422/124358662-3fc66280-dc5c-11eb-9a52-9b979828f28f.png)
 
-# 실행방법
+## 실행방법
 
 > ### _node.js 최신 LTS 버전이 필요합니다. ( require latest node.js LTS version )_
 
@@ -57,10 +57,18 @@ Transformer 구조를 이용한 기계번역으로 북한어를 남한어로 자
    npm start
    ```
 
-# 서버 레포지토리
+## 서버 레포지토리
 
 > ### https://github.com/Blackstarez/bukpago_server  
 
 시연 시 서버는 local_host:12050 으로 열어서 실행해야 합니다.  
 `python manage.py runserver 12050` 명령어로 실행해주세요.  
 자세한 것은 서버 레포지토리를 참고
+
+## 프로젝트를 하면서 배운 경험
+
+- SPA 라이브러리인 React.js를 처음으로 사용해본 경험(개인적으로)
+- Vanila JS를 사용하여 프론트엔드에서 Plain-text 파일 데이터를 처리해본 경험 (파일의 다운로드 업로드)
+- axios 패키지를 이용하여 async-await으로 서버와 브라우저간 비동기 통신을 처리한 경험
+- React의 state 관리를 위해 Mobx를 도입하여 컴포넌트에서의 비즈니스 로직분리를 시도했던 경험
+- React의 prop drilling 문제를 Mobx를 통해 완화하려 시도한 점
